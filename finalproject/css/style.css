@@ -1,0 +1,144 @@
+body {
+    background-color: #AC8B6F;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #473423;
+}
+
+#nav {
+    background-color: #755A42;
+    width: 91.9%;
+    text-align: center;
+    height: 60px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+form{
+    width:75%;
+    margin: auto;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #473423;
+}
+
+nav ul {
+    font-size: 20px;
+}
+
+.box1 {
+    width:50%;
+    margin:auto;
+    background-color: #F5EEDE;
+    padding-top: 20px;
+/*    padding: 10px 650px 200px;*/
+}
+
+h1{
+    text-align: center;
+     font-family: 'Nunito', sans-serif;
+}
+
+.nav2 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #755A42;
+    font-family: 'Nunito', sans-serif;
+}
+
+tr {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px
+}
+
+td {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+td {
+    width: 109px;
+}
+
+table {
+    width: 700px;
+    height: 235px;
+}
+#events {
+     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: auto;
+    
+}
+#namewritten {
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+}
+fieldset {
+     font-family: 'Nunito', sans-serif;
+}
+#aboutustext {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+#logo {
+    text-align: center;
+    position: relative; 
+   top: -6px;
+}
+#indextext {
+   font-family: 'Nunito', sans-serif; 
+    text-align: center;
+}
+#contacttext {
+ font-family: 'Nunito', sans-serif;
+     text-align: center;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #473423;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #473423;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+    /*    text-transform: uppercase;*/
+}
+
+a:focus {
+    text-decoration: none;
+    color: chocolate;
+}
+
+a:active {
+    text-decoration: none;
+    color: #473423;
+}

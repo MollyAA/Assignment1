@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 5</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav">
+        <nav>
+             <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="desserts.html">Menu</a></li>
+                <li><a href="events.html">Events</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="box1">
+        <h1>Events</h1>
+        <div id="events">
+        <p>Here at Beanie Macroon we have lots of events going on! </p>
+        <p>Fall into Autumn 11/28/2016 <br>
+        Create your own cake 12/02/2016<br>
+        Holiday Fun 12/12/2016-12/15/2016<br>
+        Love is in the Air 2/14/2016<br>
+        Your Cup of Tea 3/20/2016<br>
+        Cherry Blossom Bloom 4/4/2016<br>
+        Comic Day 5/6/2016<br>
+        National Macaroon Day 5/31/2016<br>
+        </p>
+            </div>
+        <form>
+        <fieldset>
+        <p>
+        <label>Want reminders of our events? Want special offers? Want free macaroons on your birthday? Then sign up for our mailing list! Here you'll see what our specials are, when our events are, coupons, and much more!</label> <br>
+   <label for="firstname">*First Name:</label>
+   <input name="firstname" type="text" id="firstname" size="54" required>
+   </p>
+   <p>
+   <label for="lastname">*Last Name:</label>
+   <input name="lastname" type="text" id="lastname" size="54" required>
+   </p>
+   <p>
+   <label for="email">*Email Address:</label>
+   <input name="email" type="email" id="email" size="50" required>
+   </p>
+            
+    <p>Select which you like best:
+            <br>
+            <input type="radio" name="meal" value="Desserts"/>Desserts
+        <input type="radio" name="meal" value="Entree" />Entree
+        <input type="radio" name="meal" value="Drink" />Drinks
+            </p>
+            <p>Select you favorite season/s: <br>
+            <input type="checkbox" name="service" value="Autumn" /> Autumn
+            <input type="checkbox" name="service" value="Winter" /> Winter
+            <input type="checkbox" name="service" value="Spring" /> Spring
+            <input type="checkbox" name="service" value="Summer" /> Winter</p>
+    <p>What is your favorite macaroon flavor?</p>
+    <select name="macaroon">
+    <option value="beanie macaroon's special">Beanie Macaroon's Special</option>
+    <option value="carmel">Carmel</option> 
+    <option value="Chocolate">Chocolate</option>
+    <option value="hazelnut">Hazelnut</option> 
+    <option value="matcha">Matcha</option>
+    <option value="orange">Orange</option>
+     <option value="pistachio">Pistachio</option> 
+    <option value="raspberry">Raspberry</option>
+    <option value="rose">Rose</option>
+    <option value="not listed">Not listed</option>
+            </select>
+    <p>What would you like to see served at Beanie Macaron?</p>
+    <textarea name="comments" cols="65" rows="7" placeholder="Enter you text here!"></textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset" id="reset" value="Reset"/>
+            <p>* means it is required</p>
+   </fieldset>
+        </form>
+    </div>
+    <footer>Created by: [<a href="mailto:maa32@pct.edu">Molly Amato</a>] | Copyright 2016</footer>
+</body>
+
+</html>
