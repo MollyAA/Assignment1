@@ -6,8 +6,21 @@ $basecolor:darken(#F5EEDE, 15%);
 $textalign: center;
 //mainfont is used through the whole page
 //basecolor should only be used once
+
+//mixin
+@mixin body {
+    width: 91.9%;
+    text-align: center;
+    height: 60px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    width: 100%;
+    margin: auto; 
+}
 body {
     background-color: #AC8B6F;
+    @include body;
 }
 
 .menu {
@@ -18,14 +31,7 @@ body {
 
 #nav {
     background-color: $accent;
-    width: 91.9%;
-    text-align: center;
-    height: 60px;
-    padding-top: 1px;
-    padding-bottom: 2px;
-    font-size: 20px;
-    width: 100%;
-    margin: auto; 
+    
 
     nav li {
             display: inline;

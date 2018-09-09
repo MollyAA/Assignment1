@@ -1,5 +1,13 @@
 body {
   background-color: #AC8B6F;
+  width: 91.9%;
+  text-align: center;
+  height: 60px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  width: 100%;
+  margin: auto;
 }
 
 .menu {
@@ -10,14 +18,6 @@ body {
 
 #nav {
   background-color: #755a42;
-  width: 91.9%;
-  text-align: center;
-  height: 60px;
-  padding-top: 1px;
-  padding-bottom: 2px;
-  font-size: 20px;
-  width: 100%;
-  margin: auto;
 }
 #nav nav li {
   display: inline;
