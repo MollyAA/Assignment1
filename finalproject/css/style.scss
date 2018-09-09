@@ -1,8 +1,8 @@
 //Varibles 
 $mainfont: 'Nunito', sans-serif;
 $textdeco: none;
-$accent: #755A42;
-$basecolor: #F5EEDE;
+$accent:fade-in(#755A42, .5%);
+$basecolor:darken(#F5EEDE, 15%);
 $textalign: center;
 //mainfont is used through the whole page
 //basecolor should only be used once
@@ -25,7 +25,18 @@ body {
     padding-bottom: 2px;
     font-size: 20px;
     width: 100%;
-    margin: auto;
+    margin: auto; 
+
+    nav li {
+            display: inline;
+            padding: 20px;
+            font-family: $mainfont;
+            color: #473423;
+        }
+        
+    nav ul {
+            font-size: 20px;
+        }
 }
 
 form{
@@ -33,16 +44,6 @@ form{
     margin: auto;
 }
 
-nav li {
-    display: inline;
-    padding: 20px;
-    font-family: $mainfont;
-    color: #473423;
-}
-
-nav ul {
-    font-size: 20px;
-}
 
 .box1 {
     width:50%;

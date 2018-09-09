@@ -9,7 +9,7 @@ body {
 }
 
 #nav {
-  background-color: #755A42;
+  background-color: #755a42;
   width: 91.9%;
   text-align: center;
   height: 60px;
@@ -19,27 +19,25 @@ body {
   width: 100%;
   margin: auto;
 }
+#nav nav li {
+  display: inline;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  color: #473423;
+}
+#nav nav ul {
+  font-size: 20px;
+}
 
 form {
   width: 75%;
   margin: auto;
 }
 
-nav li {
-  display: inline;
-  padding: 20px;
-  font-family: "Nunito", sans-serif;
-  color: #473423;
-}
-
-nav ul {
-  font-size: 20px;
-}
-
 .box1 {
   width: 50%;
   margin: auto;
-  background-color: #F5EEDE;
+  background-color: #e3d0a3;
   padding-top: 20px;
 }
 
@@ -58,7 +56,7 @@ table {
 }
 
 footer {
-  background-color: #755A42;
+  background-color: #755a42;
   font-family: "Nunito", sans-serif;
 }
 
