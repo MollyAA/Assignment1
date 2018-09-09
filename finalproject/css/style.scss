@@ -1,0 +1,151 @@
+//Varibles 
+$mainfont: 'Nunito', sans-serif;
+$textdeco: none;
+$accent: #755A42;
+$basecolor: #F5EEDE;
+$textalign: center;
+//mainfont is used through the whole page
+//basecolor should only be used once
+body {
+    background-color: #AC8B6F;
+}
+
+.menu {
+    text-align: center;
+    font-family: $mainfont;
+    color: #473423;
+}
+
+#nav {
+    background-color: $accent;
+    width: 91.9%;
+    text-align: center;
+    height: 60px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+}
+
+form{
+    width:75%;
+    margin: auto;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    font-family: $mainfont;
+    color: #473423;
+}
+
+nav ul {
+    font-size: 20px;
+}
+
+.box1 {
+    width:50%;
+    margin:auto;
+    background-color: $basecolor;
+    padding-top: 20px;
+
+}
+
+h1{
+    text-align: center;
+     font-family: $mainfont;
+}
+
+.nav2 {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: $accent;
+    font-family: $mainfont;
+}
+
+tr {
+    font-family: $mainfont;
+    font-size: 20px
+}
+
+td {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+td {
+    width: 109px;
+}
+
+table {
+    width: 700px;
+    height: 235px;
+}
+#events {
+     font-family: $mainfont;
+    text-align: center;
+    margin: auto;
+    
+}
+#namewritten {
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+}
+fieldset {
+     font-family: $mainfont;
+}
+#aboutustext {
+    text-align: $textalign;
+    font-family: $mainfont;
+}
+#logo {
+    text-align: $textalign;
+    position: relative; 
+   top: -6px;
+}
+#indextext {
+   font-family: $mainfont;
+    text-align: $textalign;
+}
+#contacttext {
+ font-family: $mainfont;
+     text-align: $textalign;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #473423;
+}
+
+a:visited {
+    text-decoration: $textdeco;
+    color: #473423;
+}
+
+a:hover {
+    text-decoration: $textdeco;
+    color: chocolate;
+}
+
+a:focus {
+    text-decoration: $textdeco;
+    color: chocolate;
+}
+
+a:active {
+    text-decoration: $textdeco;
+    color: #473423;
+}
